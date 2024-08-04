@@ -10,10 +10,11 @@
 5. [fleshlight (飞机杯)](#fleshlight)
 6. [forbid (禁止/禁)](#forbid)
 7. [grab (抓)](#grab)
-8. [lash (鞭笞/鞭打/鞭挞/鞭策)](#lash)
-9. [little_do (小撅/轻撅/滑稽撅)](#little_do)
-10. [operator_generator (合成大干员)](#operator_generator)
-11. [stretch (双手/伸展)](#stretch)
+8. [jerk_off (打胶)](#jerk_off)
+9. [lash (鞭笞/鞭打/鞭挞/鞭策)](#lash)
+10. [little_do (小撅/轻撅/滑稽撅)](#little_do)
+11. [operator_generator (合成大干员)](#operator_generator)
+12. [stretch (双手/伸展)](#stretch)
 
 
 ## behead
@@ -84,6 +85,16 @@
 - 预览：
 <div align="left">
   <img src="images/grab.jpg" width="200" />
+</div>
+
+## jerk_off
+
+- 关键词：`打胶`
+- 需要图片数目：`1`
+- 需要文字数目：`0`
+- 预览：
+<div align="left">
+  <img src="images/jerk_off.gif" width="200" />
 </div>
 
 ## lash
