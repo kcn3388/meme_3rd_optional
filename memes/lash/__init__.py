@@ -30,4 +30,6 @@ def lash(images: list[BuildImage], texts, args):
     return save_gif(frames, 0.05)
 
 
-add_meme("lash", lash, min_images=2, max_images=2, keywords=["鞭笞", "鞭打", "鞭挞", "鞭策"])
+add_meme(
+    "lash", lash, min_images=2, max_images=2, keywords=["鞭笞", "鞭打", "鞭挞", "鞭策"]
+)

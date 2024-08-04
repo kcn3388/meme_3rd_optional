@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List
 
 from meme_generator import add_meme
 from meme_generator.utils import save_gif
@@ -9,7 +8,7 @@ from pil_utils import BuildImage
 img_dir = Path(__file__).parent / "images"
 
 
-def behead(images: List[BuildImage], texts, args):
+def behead(images: list[BuildImage], texts, args):
     img = images[0].convert("RGBA").square().resize((75, 75))
     # fmt: off
     locs = [
@@ -22,7 +21,7 @@ def behead(images: List[BuildImage], texts, args):
         (9, 91, 155), (6, 161, 175), (-4, 248, 180),
     ]
     # fmt: on
-    frames: List[IMG] = []
+    frames: list[IMG] = []
     for i in range(21):
         frame = BuildImage.open(img_dir / f"{i}.png")
         x, y, angle = locs[i]

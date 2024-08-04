@@ -1,6 +1,5 @@
 import random
 from pathlib import Path
-from typing import List
 
 from meme_generator import add_meme
 from pil_utils import BuildImage
@@ -8,7 +7,7 @@ from pil_utils import BuildImage
 img_dir = Path(__file__).parent / "images"
 
 
-def operator_generator(images: List[BuildImage], texts: List[str], args):
+def operator_generator(images: list[BuildImage], texts: list[str], args):
     img = images[0].convert("RGBA").circle().resize((80, 80))
     name = texts[0] if texts else "你好"
 

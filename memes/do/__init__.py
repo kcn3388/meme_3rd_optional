@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List
 
 from meme_generator import add_meme
 from meme_generator.utils import save_gif
@@ -9,7 +8,7 @@ from pil_utils import BuildImage
 img_dir = Path(__file__).parent / "images"
 
 
-def do(images: List[BuildImage], texts, args):
+def do(images: list[BuildImage], texts, args):
     self_locs = [(116, -8), (109, 3), (130, -10)]
     user_locs = [(2, 177), (12, 172), (6, 158)]
     self_head = (
@@ -26,7 +25,7 @@ def do(images: List[BuildImage], texts, args):
         .circle()
         .rotate(90)
     )
-    frames: List[IMG] = []
+    frames: list[IMG] = []
     for i in range(3):
         frame = BuildImage.open(img_dir / f"{i}.png")
         frame.paste(user_head, user_locs[i], alpha=True)

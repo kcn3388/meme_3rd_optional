@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List
 
 from meme_generator import add_meme
 from meme_generator.utils import FrameAlignPolicy, Maker, make_gif_or_combined_gif
@@ -8,7 +7,7 @@ from pil_utils import BuildImage
 img_dir = Path(__file__).parent / "images"
 
 
-def fleshlight(images: List[BuildImage], texts, args):
+def fleshlight(images: list[BuildImage], texts, args):
     params = [
         (((0, 6), (205, 0), (213, 157), (8, 171)), (117, 59)),
         (((0, 6), (205, 0), (213, 157), (8, 171)), (117, 59)),

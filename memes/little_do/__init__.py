@@ -21,5 +21,9 @@ def little_do(images: list[BuildImage], texts, args):
 
 
 add_meme(
-    "little_do", little_do, min_images=2, max_images=2, keywords=["小撅", "轻撅", "滑稽撅"]
+    "little_do",
+    little_do,
+    min_images=2,
+    max_images=2,
+    keywords=["小撅", "轻撅", "滑稽撅"],
 )
