@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 from meme_generator import add_meme
@@ -14,4 +15,12 @@ def grab(images: list[BuildImage], texts, args):
     return frame.save_jpg()
 
 
-add_meme("grab", grab, min_images=1, max_images=1, keywords=["抓"])
+add_meme(
+    "grab",
+    grab,
+    min_images=1,
+    max_images=1,
+    keywords=["抓"],
+    date_created=datetime(2023, 3, 28),
+    date_modified=datetime(2023, 3, 28),
+)

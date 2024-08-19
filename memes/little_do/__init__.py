@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 from meme_generator import add_meme
@@ -26,4 +27,6 @@ add_meme(
     min_images=2,
     max_images=2,
     keywords=["小撅", "轻撅", "滑稽撅"],
+    date_created=datetime(2024, 7, 12),
+    date_modified=datetime(2024, 7, 12),
 )

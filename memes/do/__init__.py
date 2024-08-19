@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 from meme_generator import add_meme
@@ -34,4 +35,12 @@ def do(images: list[BuildImage], texts, args):
     return save_gif(frames, 0.05)
 
 
-add_meme("do", do, min_images=2, max_images=2, keywords=["撅", "狠狠地撅"])
+add_meme(
+    "do",
+    do,
+    min_images=2,
+    max_images=2,
+    keywords=["撅", "狠狠地撅"],
+    date_created=datetime(2023, 3, 7),
+    date_modified=datetime(2023, 3, 7),
+)

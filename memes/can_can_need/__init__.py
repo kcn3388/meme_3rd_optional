@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 from meme_generator import add_meme
@@ -17,5 +18,11 @@ def can_can_need(images: list[BuildImage], texts, args):
 
 
 add_meme(
-    "can_can_need", can_can_need, min_images=2, max_images=2, keywords=["看看你的"]
+    "can_can_need",
+    can_can_need,
+    min_images=2,
+    max_images=2,
+    keywords=["看看你的"],
+    date_created=datetime(2023, 3, 16),
+    date_modified=datetime(2023, 3, 16),
 )

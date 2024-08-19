@@ -1,3 +1,4 @@
+from datetime import datetime
 from pathlib import Path
 
 from meme_generator import add_meme
@@ -30,4 +31,12 @@ def behead(images: list[BuildImage], texts, args):
     return save_gif(frames, 0.05)
 
 
-add_meme("behead", behead, min_images=1, max_images=1, keywords=["砍头", "斩首"])
+add_meme(
+    "behead",
+    behead,
+    min_images=1,
+    max_images=1,
+    keywords=["砍头", "斩首"],
+    date_created=datetime(2023, 7, 1),
+    date_modified=datetime(2023, 7, 1),
+)

@@ -1,4 +1,5 @@
 import random
+from datetime import datetime
 from pathlib import Path
 
 from meme_generator import add_meme
@@ -60,4 +61,6 @@ add_meme(
     max_images=1,
     max_texts=1,
     keywords=["合成大干员"],
+    date_created=datetime(2023, 3, 28),
+    date_modified=datetime(2023, 3, 28),
 )
